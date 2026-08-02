@@ -74,3 +74,6 @@ $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/enchilada/enchilada-vendor.mk)
+
+# Inherit MindTheGapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
